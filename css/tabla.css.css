@@ -1,0 +1,94 @@
+body{
+	background-repeat:no-repeat;
+	color: #000;
+	background-attachment: scroll;
+	background-size: cover;
+	-moz-background-size: cover;
+	margin: 10px;
+}
+
+.contenedor {
+	background-color: white;
+	width: 80%;
+	height: 200%;
+	margin: 0 auto;
+    box-sizing: border-box;
+}
+.form .btn{
+	border-radius: 10px;
+	padding: .5em 1em;
+	cursor: pointer;
+	background-color: #3966D7;
+	color: white;
+	width: 90px;  
+
+}
+.centrado{
+    text-align: center;
+}
+
+}
+label{
+	font-size: 20px;
+	display: #DE0909;
+	width: 100%;
+}
+input, textarea {
+	margin-bottom: 10px;
+	width: 95%;
+	padding: 10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+    border-radius: 4px 
+}
+input:focus textarea:foscus {
+	border: #7D7A76;
+}
+input[type="submit"] {
+   margin-bottom:55px;
+   background:#1668c4;
+   color:#fff;
+   border:none;
+
+}
+input[type="submit"]:hover {
+	background:#09DE26;
+	cursor:pointer;
+}
+form {
+	background-color: white;
+	width:  20%;
+	border-radius: 50px;
+	margin: 50 auto;
+	padding: 5px;
+}
+table, h1, th, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	margin: 6px;
+	width: 20px;
+}
+th,td{
+	padding: 30px;
+}
+th, {
+	text-align: left;
+}
+h1 {
+	text-align: center;
+}
+table tr:hover {
+	background: #ccc;
+}
+table td: hover {
+	background:#09DE1F;
+	color:#0E339B;
+}
+.logo{
+	margin-top: 20px;
+	margin-right: 7px;
+	width: 18%;
+	height: 100%;
+	float: right;
+}
